@@ -1,0 +1,82 @@
+[default]
+ct_spekkio:   	prelude
+ct_magusintro:	omen1, omen3, dmad4
+sd2_forget:     awakening
+sd2_sea: 	balance
+ct_ayla:	shadow
+ct_trial: 	strago
+sd2_memories:   gau
+sd2_tasnica:    figaro
+ff6_coin: 	coin
+ct_frog:        cyan
+ff6_locke:      locke
+sd2_rose:     	rachel
+sd2_always:	relm
+sf2_guile:	setzer
+ff6_daryl:     	daryl
+sd2_spirit:     celes
+sth1_spring:	chocobo
+ct_boss:	boss
+smb2_select:	johnny
+sf2_ken:  	kefka
+ct_schala: 	narshe
+ct_forest:	cave
+ct_bobonga:	veldt
+sd2_boss: 	savethem
+sd2_legend:	empire
+sd2_desert: 	troops
+ct_town:	martiallaw
+iog_ankor:	metamorphosis
+ct_omen: 	train
+ct_seal: 	espers
+iog_larai:	grandfinale
+ct_theme: 	mountain
+ct_battle:	battle
+ct_undersea:	serpent
+sd2_town:	zozo
+ct_zeal: 	town
+ct_tension:	what
+ct_sewer: 	gogo
+sd2_star:	returners
+sd2_jema: 	fanfare
+ff7_fanfare:	fanfare
+sd2_matango:	umaro
+sd2_popoi:  	moogles
+ct_revolution:	unforgiven
+ct_final:	atma
+ct_600ad:	ruintown
+ct_epoch:	blackjack
+ct_lavos:	catastrophe
+smrpg_road:	owzer
+sd2_ally: 	sleep
+sd2_dwarf:	spinach
+sd2_death: 	death
+smrpg_road2:	wed_rafters
+ct_robo:	magitek
+ct_tylair: 	floating
+sd2_flammie:	falcon
+sd2_thanatos:   fanatics
+sd2_fortress:	ktower
+ct_fair:       	ruin
+ct_magus:	dmad5
+sd2_forest:	forest
+ct_silent: 	tomb
+sd2_intruder:	dream
+sd2_8bells:	ancient
+sd2_eternal:	phoenix
+mmx3_zero:	gate
+ct_mountain:	mount2
+ff7_battle:	engine
+sd2_city:  	village
+sd2_steel: 	assault
+ct_boss2: 	bat2
+ff7_boss: 	bat3
+sd2_final:	bat4
+iog_boss:	mboss
+
+[tierboss]
+ct: cc_flame, ct_battle2, ct_lavos
+ff6: ff6_tier1_dm, ff6_tier2_dm, ff6_tier3
+#i: iog_whispers
+#chorus: ff6_fanatics_chorus, ff6_tier1_chorus, ff6_tier2_chorus
+#sd: sd2_thanatos

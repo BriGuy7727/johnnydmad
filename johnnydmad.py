@@ -96,6 +96,7 @@ def johnnydmad():
             break
         
     f_chaos = False
+    f_dupes = False
     kw = {}
     force_dm = None
     while True:
@@ -109,12 +110,23 @@ def johnnydmad():
         print('    "mem" to check songs for errors, sorted by highest memory use variant')
         print('    "pool" to simulate many seeds and report the observed probability pools for each track')
         print('    "battle" to simulate many seeds and report probabilities for only battle music')
-        print('    "pl FILENAME" to set FILENAME as playlist instead of default')
+        print('    "pl1 FILENAME" to set FILENAME as playlist instead of default, no duplicates')
+        print('    "pl2 FILENAME" to set FILENAME as playlist instead of default, allow duplicates')
+        print('    "silence" to generate a seed without music, only sound effects')
         print('    "dm FILENAME" to generate a test tierboss MML file including FILENAME')
         i = input()
         print()
-        if i.startswith("pl "):
-            kw["playlist_filename"] = i[3:]
+        if i.startswith("pl1 "):
+            kw["playlist_filename"] = i[4:]
+            f_dupes = False
+            continue
+        if i.startswith("pl2 "):
+            kw["playlist_filename"] = i[4:]
+            f_dupes = True
+            continue
+        if i == "silence":
+            kw["playlist_filename"] = "silence"
+            f_dupes = True
             continue
         break
     if i == "chaos":
@@ -132,13 +144,13 @@ def johnnydmad():
     else:
         print('generating..')
         metadata = {}
-        outrom = process_music(inrom, meta=metadata, f_chaos=f_chaos, **kw)
+        outrom = process_music(inrom, meta=metadata, f_chaos=f_chaos, **kw, f_dupes=f_dupes)
         outrom = process_formation_music_by_table(outrom)
         outrom = process_map_music(outrom)
-        outrom = add_music_player(outrom, metadata)
-    
-        print("writing to mytest.smc")
-        with open("mytest.smc", "wb") as f:
+        # outrom = add_music_player(outrom, metadata)
+        newrom = fn[0:-4] + "_music.smc"
+        print("writing to " + newrom)
+        with open(newrom, "wb") as f:
             f.write(outrom)
         
         sp = get_music_spoiler()
