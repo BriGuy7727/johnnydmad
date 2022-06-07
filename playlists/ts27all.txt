@@ -2,7 +2,9 @@
 # narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 ct_600ad:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 ct_fair:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+ct_forest:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow
 ct_schala:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+ct_sewer:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 ct_town: 	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 ct_zeal:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 ds4_world:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
@@ -23,6 +25,7 @@ ff6_ruintown:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, st
 ff6_shadow:     narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 ff6_strago:     narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 ff6_town:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+ff6_town2:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 ff6_zozo:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 ff6_zozo_original:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 ff7_pizza: 	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
@@ -33,6 +36,7 @@ lal_theme:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strag
 lu1_port:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 met3_plants:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 mg64_menu: 	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+rs3_julian:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 sd2_always:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 sd2_city:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 sd2_desert:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
@@ -104,6 +108,7 @@ smw_castle:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek
 tyr_theme:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
 ys1_wars:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
 totr_ruins:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+ys8_idance:	serpent, forest, dream, ancient, phoenix, gate, wed_rafters, gogo, train
 zaol_temple:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
 zlttp_darkworld: cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
 zlttp_dungeon:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
@@ -129,10 +134,12 @@ ct_tylair:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfin
 ct_theme:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 cv4_beginning:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 doom_e1m1:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+ff1_bossb:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 ff2_battleb:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 ff4_boss: 	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 ff5_boss:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 ff5_bridge:	savethem, unforgiven, metamorphosis, wed_rafters
+ff5_decisive:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 ff5_exdeath:	grandfinale, metamorphosis, battle, bat2, bat3, bat4, mboss, wed_rafters
 ff6_atma:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 ff6_boss: 	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
@@ -153,9 +160,10 @@ ffmq_lava:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfin
 iog_boss:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 lal_psycho:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 lu1_battle:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+lu2_battle3:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 mmx3_seahorse:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 mmx3_zero: 	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
-ot_treasure:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
+ot_treasure:	savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, metamorphosis, wed_rafters
 pw_cornered:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 sd2_boss:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 sd2_final:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
@@ -175,9 +183,13 @@ wa2_heimdal:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandf
 ys1_wars:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 ys3_time:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters
 
+
+
+
+
 [misc]
 # prelude, omen3, awakening, balance, chocobo, johnny, veldt, espers, what, blackjack, catastrophe, spinach, falcon, engine, assault, 
-# gau, figaro, cyan, rachel, relm, setzer, celes, kefka, moogles, daryl, coin
+# gau, figaro, cyan, rachel, relm, setzer, celes, kefka, moogles, daryl, coin, dmad4
 7th_town:	assault
 arc_battle:	catastrophe, engine
 bl_rebels:	figaro, cyan, engine, returners
@@ -193,38 +205,40 @@ ct_inn: 	sleep
 ct_lavos: 	omen1, dmad4, empire, troops, espers, catastrophe
 ct_magusintro:	omen1, dmad4
 ct_mountain:	veldt, empire, troops, spinach, engine
-ct_night:	prelude, awakening, espers, rachel, celes
+ct_night:	prelude, awakening, espers
 ct_omen:	catastrophe, engine
 ct_prayer: 	sleep
 ct_robo:	gau, figaro, cyan, relm, setzer, kefka, moogles
 ct_rhythm:	prelude, veldt, what
 ct_schala:	prelude, gau, figaro, cyan, relm, setzer, kefka, moogles
-ct_seal:	awakening, espers, rachel, celes
-ct_sewer:	what, gau, kefka, moogles
-ct_spekkio:	prelude, johnny, veldt, what, spinach
+ct_seal:	awakening, espers, omen1
+ct_sewer:	what, gau, kefka, moogles, omen1
+ct_spekkio:	prelude, johnny, veldt, what, spinach, omen1
 ct_tension:	espers, what, catastrophe, spinach, kefka, moogles
 ct_trial:	espers, what, spinach
 ct_truth:	prelude, empire, troops, espers, what, catastrophe, spinach
-fe15_whatlies:	cyan, returners, figaro, engine, setzer, blackjack, falcon, balance
+doom_e1m1:	dmad4, omen1, prelude
+fe15_whatlies:	cyan, returners, figaro, engine, setzer, blackjack, falcon, balance, omen1
 ff3_warrior: 	locke
+ff4_rosa:	rachel
 ff5_dawn:	cyan, returners, setzer, figaro, engine
 ff5_exdeath: 	empire, troops, engine, omen1, catastrophe
 ff5_ship:	cyan, returners, setzer, moogles, gau, figaro, blackjack, engine, falcon, blackjack
-ff6_awakening:	prelude, awakening, espers, rachel, celes
+ff6_awakening:	prelude, awakening, espers
 ff6_balance:	prelude, balance, johnny, blackjack, falcon, engine
 ff6_catastrophe: kefka, veldt, moogles, omen1, catastrophe
 ff6_celes:	awakening, espers, prelude
 ff6_chocobo:	chocobo
-ff6_coin: 	awakening, espers, rachel, celes, prelude
+ff6_coin: 	awakening, espers, prelude
 ff6_cyan:	cyan, returners, setzer, moogles, gau, figaro, blackjack, engine, falcon, blackjack
-ff6_daryl:     	awakening, espers, rachel, celes
+ff6_daryl:     	awakening, espers
 ff6_empire:	omen1, empire, troops, espers, catastrophe
 ff6_espers:	espers, gate, omen1
 ff6_falcon:	setzer, blackjack, falcon
 ff6_fanatics:   catastrophe, train, fanatics, what
 ff6_figaro:     cyan, figaro, returners
 ff6_forest:     awakening, espers, mountain, cave, forest, tomb, ancient, dream, mount2
-ff6_gau:	gau, awakening, espers, rachel, celes, omen1
+ff6_gau:	gau, awakening, espers, omen1
 ff6_gogo:	gau, spinach, johnny, kefka, veldt, what, engine, moogles
 ff6_grandfinale:    spinach, johnny, kefka, catastrophe
 ff6_johnny: 	spinach, johnny, moogles, gau, kefka, prelude, omen1, serpent, relm, what
@@ -232,74 +246,78 @@ ff6_kefka:      spinach, johnny, moogles, gau, relm, what
 ff6_metamorphosis:	catastrophe, kefka, omen1
 ff6_moogles:	gau, relm, moogles, what, setzer, kefka, spinach, johnny, prelude
 ff6_omen3: 	prelude, omen1, kefka, awakening, espers, catastrophe, narshe
-ff9_world:	coin
 ff6_prelude:	daryl
-ff6_rachel: 	gau, relm, rachel, celes, prelude, omen1, 
-ff6_relm: 	gau, relm, rachel, celes, prelude, omen1, moogles
+ff6_rachel: 	gau, relm, prelude, omen1 
+ff6_relm: 	gau, relm, prelude, omen1, moogles
 ff6_returners: 	fanfare, cyan, figaro, engine, balance, blackjack, setzer, falcon, kefka
-ff6_setzer:	setzer, blackjack, falcon, celes, rachel, figaro
+ff6_setzer:	setzer, blackjack, falconfigaro
 ff6_shadow:	moogles, relm, gau, setzer, cyan, figaro, engine, blackjack, falcon, kefka
 ff6_spinach:    spinach, johnny, kefka
 ff6_strago:     what, moogles, relm, gau, kefka, veldt
 ff6_umaro:	what, moogles, relm, gau, kefka, veldt
 ff6_veldt:	what, moogles, figaro, engine, cyan, gau, kefka, veldt
+ff7_aerith:	celes
 ff7_death: 	death
 ff7_fanfare:    fanfare
 ff9_blackmage:	cyan, figaro, returners, fanatics, setzer, engine
-ff9_gargan:	umaro, gogo, setzer, engine
-ffx_luca:	relm, gau, prelude, espers, awakening, rachel, celes
+ff9_gargan:	umaro, gogo, setzer, engine, omen1
+ff9_world:	coin
+ffx_luca:	relm, gau, prelude, espers, awakening
 ffmq_rock:	setzer, engine, figaro, kefka
 ffmq_tower:	cyan, figaro, returners, fanatics, setzer, engine 
 iog_ankor:	veldt
 iog_larai:	veldt, catastrophe, engine
 iog_womb:	awakening, espers, what
-iog_village:	awakening, espers, what, rachel, celes
+iog_village:	awakening, espers, what
 met3_crateria:	catastrophe, engine, gau, relm, setzer, moogles
 met3_surface:	veldt, empire, troops, catastrophe, omen1, dmad4
 mg64_menu: 	balance, johnny, veldt, spinach, gau, relm, setzer, moogles
 mmx3_zero: 	gau, cyan, relm, setzer, kefka, moogles, dmad4
+rs3_julian:	gau, relm, setzer, moogles, engine, veldt
 sd2_ally: 	sleep
 sd2_always:	gau, relm
-sd2_angel:	prelude, awakening, espers, rachel, celes
-sd2_boss:	catastrophe
+sd2_angel:	prelude, awakening, espers
+sd2_boss:	catastrophe, dmad4
 sd2_death: 	death
 sd2_dwarf:	johnny, veldt, what, spinach, moogles
-sd2_eternal:	prelude, awakening, empire, espers, celes, rachel
+sd2_eternal:	prelude, awakening, empire, espers
 sd2_field:	balance, veldt, blackjack, falcon
 sd2_flammie:	balance, veldt, blackjack, falcon, engine
-sd2_forest:	balance, celes, rachel
-sd2_forget:	awakening, espers, rachel, celes
+sd2_forest:	balance
+sd2_forget:	awakening, espers
+sd2_intruder:	dmad4
 sd2_jema:	fanfare, gau, relm, moogles
-sd2_legend:	figaro, cyan, relm, setzer, moogles
+sd2_legend:	figaro, cyan, relm, setzer, moogles, dmad4
 sd2_lofty:	balance, veldt, blackjack, falcon
-sd2_mana:	prelude, awakening, espers, rachel, celes
-sd2_matango:	gau, kefka, moogles, celes, rachel
-sd2_memories:	prelude, awakening, espers, rachel, celes
-sd2_popoi:	gau, relm, setzer, kefka, moogles, celes, rachel
-sd2_prayer:	prelude, awakening, espers, rachel, celes
+sd2_mana:	prelude, awakening, espers
+sd2_matango:	gau, kefka, moogles
+sd2_memories:	prelude, awakening, espers
+sd2_popoi:	gau, relm, setzer, kefka, moogles
+sd2_prayer:	prelude, awakening, espers
 sd2_prophecy:	prelude, balance, empire, troops, espers, blackjack, falcon, kefka
-sd2_pureland: 	prelude, awakening, espers, rachel, celes
-sd2_rose:	prelude, awakening, espers, rachel, celes
+sd2_pureland: 	prelude, awakening, espers
+sd2_rose:	prelude, awakening, espers
 sd2_scorpion:	gau, figaro, relm, setzer, kefka, moogles
-sd2_sea:	balance, veldt, blackjack, falcon, celes, rachel
-sd2_spirit:	prelude, awakening, espers, rachel, celes
-sd2_star:	prelude, empire, troops
-sd2_steel:	figaro, celes, rachel
+sd2_sea:	balance, veldt, blackjack, falcon
+sd2_spirit:	prelude, awakening, espers
+sd2_star:	prelude, empire, troops, dmad4
+sd2_steel:	figaro
 sd2_tasnica:	figaro, cyan, empire, troops
-sf2_balrog:	gau, figaro, cyan, relm, setzer, kefka, moogles
-sf2_guile:	gau, figaro, cyan, relm, setzer, kefka, moogles
-sf2_ken:	gau, figaro, cyan, relm, setzer, kefka, moogles
+sf2_balrog:	gau, figaro, cyan, relm, setzer, kefka, moogles, dmad4
+sf2_guile:	gau, figaro, cyan, relm, setzer, kefka, moogles, dmad4
+sf2_ken:	gau, figaro, cyan, relm, setzer, kefka, moogles, dmad4
 sth1_spring:	johnny, empire, troops, spinach, engine
 smw_castle:	empire, troops, catastrophe
 smb2_select:	johnny, veldt, spinach, gau, relm, kefka, moogles
 totr_ruins:	empire, troops, engine, kefka, figaro, cyan, dmad4
 ys1_wars:	setzer, blackjack, falcon, mount2, serpent
-zlttp_dungeon:	veldt, blackjack, catastrophe, spinach, falcon, engine, figaro, kefka
+ys8_idance:	setzer, blackjack, falcon, spinach
+zlttp_dungeon:	veldt, catastrophe, spinach, johnny, kefka
 
 [tierboss]
 #ct: 		ct_final, ct_magus, ct_theme
 ct: 		cc_flame, ct_battle2, ct_lavos
-ff:		ff3_eureka, ff4_fiend, ff5_seal, ffmq_boss, ffmq_lava
+ff:		ff4_fiend, ff5_seal, ffmq_boss, ffmq_lava
 ff6: 		ff6_tier1_dm, ff6_tier2_dm, ff6_tier3
 #i: 		iog_whispers
 chorus: 	ff6_fanatics_chorus, ff6_tier1_chorus, ff6_tier2_chorus

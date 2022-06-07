@@ -154,7 +154,8 @@ def johnnydmad():
             f.write(outrom)
         
         sp = get_music_spoiler()
-        with open("spoiler.txt", "w") as f:
+        spoilerfile = fn[0:-4] + "_spoiler.txt"
+        with open(spoilerfile, "w") as f:
             f.write(sp)
             
 #################################
