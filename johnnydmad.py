@@ -113,11 +113,11 @@ def johnnydmad(args):
     force_dm = None
     def generate_rom():
         print('Generating rom with randomized music')
+        print(f"Using Playlist {playlist}")
         metadata = {}
         outrom = process_music(inrom, meta=metadata, f_chaos=f_chaos, freespace=freespace, playlist_filename=playlist, f_dupes=f_dupes)
         outrom = process_formation_music_by_table(outrom)
         outrom = process_map_music(outrom)
-        print(f"Using Playlist {playlist}")
         print()
         if insert_music_player:
             print("Adding in-game music player")
