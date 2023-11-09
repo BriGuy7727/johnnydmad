@@ -37,6 +37,7 @@ except ImportError:
     from mfvitools.insertmfvi import insertmfvi, byte_insert, int_insert, SampleIDError, FreeSpaceError
 
 JOHNNYDMAD_FREESPACE = ["330000-3FFFFF"]
+DEFAULT_PLAYLIST_FILE = 'default.txt'
 TRAIN_SAMPLE_ID = 0x3A
 
 SAMPLE_PATH = 'samples'

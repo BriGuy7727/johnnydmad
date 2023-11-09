@@ -3,6 +3,7 @@
 bl_rebels:	returners
 cc_home:    narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 ct_600ad:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+ct_dome:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 ct_fair:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 ct_forest:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow
 ct_schala:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
@@ -44,6 +45,7 @@ garou_hotaru:   narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, 
 iog_village:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 lal_theme:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 lu1_port:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+lu1_shopping:   narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 lu1_world:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 lu2_port:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 met3_plants:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
@@ -61,6 +63,8 @@ sd2_thunder: 	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, st
 sd2_town:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 sd2_wish:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 sd3_paths:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+smb2_over:  narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
+smb3_credits:   narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 smrpg_road:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 smrpg_road2:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
 sth1_spring:	narshe, martiallaw, zozo, town, ruintown, owzer, ruin, village, strago, shadow, returners
@@ -134,7 +138,9 @@ iog_ankor:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek,
 iog_larai:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
 jts_stage1:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
 lal_theme:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
+lu1_file:   cave, empire, troops, train, mountain, serpent, gogo, umaro, tomb, dream, ancient, phoenix, gate, mount2
 lu2_boss:   cave, empire, troops, train, mountain, serpent, gogo, umaro, forest, tomb, dream, ancient, phoenix, gate, mount2
+lu2_tower:  cave, empire, troops, train, mountain, serpent, gogo, umaro, forest, tomb, dream, ancient, phoenix, gate, mount2, engine
 met3_crateria:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
 met3_lowernorfair: cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, tomb, dream, ancient, phoenix, gate, mount2
 met3_plants:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
@@ -281,6 +287,7 @@ totr_battle:	savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale,
 totr_sboss:     boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters, locke
 totr_spirit:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters, locke
 wa2_heimdal:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters, locke
+xg_final:   savethem, unforgiven, grandfinale, metamorphosis, wed_rafters, locke
 xg_weltall: savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, metamorphosis, wed_rafters, locke
 ys1_wars:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters, locke
 ys3_time:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, atma, metamorphosis, wed_rafters, locke
@@ -298,6 +305,7 @@ crys_tower:	balance, blackjack, falcon, setzer
 ct_ayla:	setzer
 ct_bobonga:	balance
 ct_epoch:	balance, blackjack, falcon, setzer
+ct_ending:  balance, blackjack, falcon, setzer
 ct_forest: 	balance
 ds4_world:  balance, blackjack, falcon, setzer
 fe15_whatlies:	setzer, blackjack, falcon, balance
@@ -325,6 +333,7 @@ bl_rebels:	figaro, cyan
 bof1_jade:  dmad4, kefka
 ct_ayla:	gau, figaro, cyan, relm, kefka, moogles
 ct_bike:	gau, figaro, cyan, relm, kefka, moogles
+ct_dome:    gau, cyan, relm, moogles, what, espers, awakening, prelude
 ct_frog:	gau, figaro, cyan, relm, kefka, moogles
 ct_robo:	gau, figaro, cyan, relm, kefka, moogles
 ct_schala:	gau, figaro, cyan, relm, kefka, moogles
@@ -406,8 +415,11 @@ sd3_steel:  figaro, cyan, troops, empire
 bl_rebels:      fanfare
 ct_ayla:	    fanfare
 ct_bobonga:	    fanfare
+ct_ending:      fanfare
+ct_gato:        fanfare
 ct_frog:	    fanfare
 ct_inn: 	    sleep
+ct_lucca:       fanfare
 ct_prayer:  	sleep
 ff4_fanfare:	fanfare
 ff4_whale:	    fanfare

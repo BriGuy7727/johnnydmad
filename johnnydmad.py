@@ -110,7 +110,6 @@ def johnnydmad(args):
         
     f_chaos = False
     f_dupes = False
-    kw = {}
     force_dm = None
     def generate_rom():
         print('Generating rom with randomized music')
@@ -120,34 +119,67 @@ def johnnydmad(args):
         outrom = process_map_music(outrom)
 
         print()
-        if "playlist_filename" in kw:
-            print(f"Playlist file is set to {kw['playlist_filename']}")
+        if insert_music_player:
+            print("Adding in-game music player")
+            outrom = add_music_player(outrom, metadata)
+        else:
+            print('Skipping in-game music player')
         print()
-        print("press enter to continue or type:")
-        print('    "chaos" to test chaotic mode')
-        print('    "sfxv" to check songs for errors, sorted by longest sequence variant')
-        print('    "mem" to check songs for errors, sorted by highest memory use variant')
-        print('    "pool" to simulate many seeds and report the observed probability pools for each track')
-        print('    "battle" to simulate many seeds and report probabilities for only battle music')
-        print('    "pl1 FILENAME" to set FILENAME as playlist instead of default, no duplicates')
-        print('    "pl2 FILENAME" to set FILENAME as playlist instead of default, allow duplicates')
-        print('    "silence" to generate a seed without music, only sound effects')
-        print('    "dm FILENAME" to generate a test tierboss MML file including FILENAME')
-        i = input()
-        print()
-        if i.startswith("pl1 "):
-            kw["playlist_filename"] = i[4:]
-            f_dupes = False
-            continue
-        if i.startswith("pl2 "):
-            kw["playlist_filename"] = i[4:]
-            f_dupes = True
-            continue
-        if i == "silence":
-            kw["playlist_filename"] = "silence"
-            f_dupes = True
-            continue
-        break
+        if outfile:
+            newrom = outfile
+        else:
+            newrom = fn[0:-4] + "_music.smc"
+        print(f"Outputting generated rom to location {newrom}")
+        with open(newrom, "wb") as f:
+            f.write(newrom)
+        
+        print(f"Generating spoiler log")
+        sp = get_music_spoiler()
+        if spoiler_outfile:
+            spoilerfile = spoiler_outfile
+        else:
+            spoilerfile = fn[0:-4] + "_spoiler.txt"
+        print(f"Outputting spoiler log to location {spoiler_outfile}")
+        with open(spoiler_outfile, "w") as f:
+            f.write(sp)
+
+    kw = {}
+    kw["playlist_filename"] = playlist
+
+    def print_playlist(playlist_name):
+        print(f"Playlist file is set to {playlist_name}")
+
+    print_playlist(playlist)
+    if not allow_user_input:
+        generate_rom()
+    else:
+        while True:
+            print()
+            print("press enter to continue or type:")
+            print('    "chaos" to test chaotic mode')
+            print('    "sfxv" to check songs for errors, sorted by longest sequence variant')
+            print('    "mem" to check songs for errors, sorted by highest memory use variant')
+            print('    "pool" to simulate many seeds and report the observed probability pools for each track')
+            print('    "battle" to simulate many seeds and report probabilities for only battle music')
+            print('    "pl1 FILENAME" to set FILENAME as playlist instead of default, no duplicates')
+            print('    "pl2 FILENAME" to set FILENAME as playlist instead of default, allow duplicates')
+            print('    "silence" to generate a seed without music, only sound effects')
+            print('    "dm FILENAME" to generate a test tierboss MML file including FILENAME')
+            i = input()
+            print()
+            if i.startswith("pl1 "):
+                kw["playlist_filename"] = i[4:]
+                f_dupes = False
+                continue
+            if i.startswith("pl2 "):
+                kw["playlist_filename"] = i[4:]
+                f_dupes = True
+                continue
+            if i == "silence":
+                kw["playlist_filename"] = "silence"
+                f_dupes = True
+                continue
+            break
     if i == "chaos":
         f_chaos = True
     if i == "sfxv":
@@ -161,21 +193,7 @@ def johnnydmad(args):
     elif i.startswith("dm "):
         tierboss_test(i[3:], **kw)
     else:
-        print('generating..')
-        metadata = {}
-        outrom = process_music(inrom, meta=metadata, f_chaos=f_chaos, **kw, f_dupes=f_dupes)
-        outrom = process_formation_music_by_table(outrom)
-        outrom = process_map_music(outrom)
-        # outrom = add_music_player(outrom, metadata)
-        newrom = fn[0:-4] + "_music.smc"
-        print("writing to " + newrom)
-        with open(newrom, "wb") as f:
-            f.write(outrom)
-        
-        sp = get_music_spoiler()
-        spoilerfile = fn[0:-4] + "_spoiler.txt"
-        with open(spoilerfile, "w") as f:
-            f.write(sp)
+        generate_rom()
             
 #################################
 
