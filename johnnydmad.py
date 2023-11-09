@@ -114,10 +114,10 @@ def johnnydmad(args):
     def generate_rom():
         print('Generating rom with randomized music')
         metadata = {}
-        outrom = process_music(inrom, meta=metadata, f_chaos=f_chaos, freespace=freespace, playlist_filename=playlist)
+        outrom = process_music(inrom, meta=metadata, f_chaos=f_chaos, freespace=freespace, playlist_filename=playlist, f_dupes=f_dupes)
         outrom = process_formation_music_by_table(outrom)
         outrom = process_map_music(outrom)
-
+        print(f"Using Playlist {playlist}")
         print()
         if insert_music_player:
             print("Adding in-game music player")
@@ -125,35 +125,36 @@ def johnnydmad(args):
         else:
             print('Skipping in-game music player')
         print()
-        if outfile:
-            newrom = outfile
-        else:
+        if outfile == "mytest.smc":
             newrom = fn[0:-4] + "_music.smc"
+        else:
+            newrom = outfile
         print(f"Outputting generated rom to location {newrom}")
         with open(newrom, "wb") as f:
-            f.write(newrom)
+            f.write(outrom)
         
         print(f"Generating spoiler log")
         sp = get_music_spoiler()
-        if spoiler_outfile:
-            spoilerfile = spoiler_outfile
-        else:
+        if spoiler_outfile == "spoiler.txt":
             spoilerfile = fn[0:-4] + "_spoiler.txt"
-        print(f"Outputting spoiler log to location {spoiler_outfile}")
-        with open(spoiler_outfile, "w") as f:
+        else:
+            spoilerfile = spoiler_outfile
+        print(f"Outputting spoiler log to location {spoilerfile}")
+        with open(spoilerfile, "w") as f:
             f.write(sp)
 
-    kw = {}
-    kw["playlist_filename"] = playlist
-
-    def print_playlist(playlist_name):
-        print(f"Playlist file is set to {playlist_name}")
-
-    print_playlist(playlist)
     if not allow_user_input:
         generate_rom()
     else:
         while True:
+            print()
+            kw = {}
+            kw["playlist_filename"] = playlist
+
+            def print_playlist(playlist_name):
+                print(f"Playlist file is set to {playlist_name}")
+
+            print_playlist(playlist)
             print()
             print("press enter to continue or type:")
             print('    "chaos" to test chaotic mode')
@@ -168,15 +169,15 @@ def johnnydmad(args):
             i = input()
             print()
             if i.startswith("pl1 "):
-                kw["playlist_filename"] = i[4:]
+                playlist = i[4:]
                 f_dupes = False
                 continue
             if i.startswith("pl2 "):
-                kw["playlist_filename"] = i[4:]
+                playlist = i[4:]
                 f_dupes = True
                 continue
             if i == "silence":
-                kw["playlist_filename"] = "silence"
+                playlist = "silence"
                 f_dupes = True
                 continue
             break
@@ -366,11 +367,11 @@ if __name__ == "__main__":
     parser.add_argument('-nmp', '--no-music-player', dest='music_player', action='store_false', help = "Do not add the music player to the in-game menu")
 
     parser.set_defaults(
-        free_space="53C5F-9FDFF,310000-37FFFF,410000-4FFFFF", 
+        free_space="330000-3FFFFF", 
         input_file="ff6.smc",
-        music_player=True, 
+        music_player=False, 
         output_file="mytest.smc",
-        playlist = "default.txt",
+        playlist = "ts27all",
         prompt_user = True,
         spoiler_output_file="spoiler.txt",
     )
