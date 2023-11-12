@@ -305,7 +305,6 @@ crys_tower:	balance, blackjack, falcon, setzer
 ct_ayla:	setzer
 ct_bobonga:	balance
 ct_epoch:	balance, blackjack, falcon, setzer
-ct_ending:  balance, blackjack, falcon, setzer
 ct_forest: 	balance
 ds4_world:  balance, blackjack, falcon, setzer
 fe15_whatlies:	setzer, blackjack, falcon, balance
@@ -415,7 +414,6 @@ sd3_steel:  figaro, cyan, troops, empire
 bl_rebels:      fanfare
 ct_ayla:	    fanfare
 ct_bobonga:	    fanfare
-ct_ending:      fanfare
 ct_gato:        fanfare
 ct_frog:	    fanfare
 ct_inn: 	    sleep
