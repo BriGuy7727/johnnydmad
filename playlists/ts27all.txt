@@ -140,6 +140,7 @@ jts_stage1:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek
 lal_theme:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
 lu1_file:   cave, empire, troops, train, mountain, serpent, gogo, umaro, tomb, dream, ancient, phoenix, gate, mount2
 lu2_boss:   cave, empire, troops, train, mountain, serpent, gogo, umaro, forest, tomb, dream, ancient, phoenix, gate, mount2
+lu2_fortress:   cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
 lu2_tower:  cave, empire, troops, train, mountain, serpent, gogo, umaro, forest, tomb, dream, ancient, phoenix, gate, mount2, engine
 met3_crateria:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
 met3_lowernorfair: cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, tomb, dream, ancient, phoenix, gate, mount2
@@ -163,7 +164,6 @@ sd3_winter:	cave, train, mountain, umaro, serpent, forest, tomb, dream, ancient,
 smrpg_forest:   cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, forest, tomb, dream, ancient, phoenix, gate, mount2, wed_rafters
 smrpg_road2:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, forest, tomb, dream, ancient, phoenix, gate, mount2, wed_rafters
 smw_castle:	cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
-sots_boss:nointro: cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2
 tn_darkworld:	empire, troops, train, serpent, gogo, umaro, forest, tomb, dream, ancient, phoenix, gate
 top_world3:     cave, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, tomb, dream, ancient, phoenix, gate, mount2
 totr_aquarians: cave, empire, troops, train, mountain, serpent, gogo, umaro, magitek, floating, fanatics, ktower, forest, tomb, dream, ancient, phoenix, gate, mount2, engine
@@ -207,11 +207,12 @@ eo3_waves:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfin
 ff1_bossb:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters, locke
 ff2_battleb:	savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, metamorphosis, wed_rafters, locke
 ff4_boss: 	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters, locke
+ff4_fiend:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters, locke
 ff5_boss:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters, locke
 ff5_bridge:	savethem, unforgiven, metamorphosis, wed_rafters, locke
 ff5_decisive:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters, locke
 ff5_exdeath:	grandfinale, metamorphosis, battle, bat2, bat3, bat4, mboss, wed_rafters, locke
-ff5_final:  savethem, unforgiven, grandfinale, metamorphosis, wed_rafters, locke
+ff5_final:  	savethem, unforgiven, grandfinale, metamorphosis, wed_rafters, locke
 ff6_atma:	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters, locke
 ff6_boss: 	boss, savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, dmad5, atma, metamorphosis, wed_rafters, locke
 ff6_battle:	savethem, battle, unforgiven, bat2, bat3, bat4, mboss, grandfinale, metamorphosis, wed_rafters, locke

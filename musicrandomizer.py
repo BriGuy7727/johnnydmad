@@ -731,7 +731,7 @@ def set_subpath(subpath):
         if os.path.isabs(subpath):
             BASEPATH = subpath
             
-def process_music(inrom, meta={}, f_chaos=False, f_dupes=False, f_battle=True, opera=None, eventmodes="", playlist_filename=DEFAULT_PLAYLIST_FILE, virtual_playlist=None, subpath=None, freespace=JOHNNYDMAD_FREESPACE, pool_test=False, ext_rng=random):
+def process_music(inrom, meta={}, f_chaos=False, f_dupes=False, f_battle=True, opera=None, eventmodes="", playlist_filename=DEFAULT_PLAYLIST_FILE, virtual_playlist=None, subpath=None, freespace=JOHNNYDMAD_FREESPACE, pool_test=False, ext_rng=random, enable_exceptions=False):
     global random
     global used_song_names
     global used_sample_ids
