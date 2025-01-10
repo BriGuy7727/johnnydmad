@@ -141,7 +141,7 @@ def johnnydmad(args):
         else:
             spoilerfile = spoiler_outfile
         print(f"Outputting spoiler log to location {spoilerfile}")
-        with open(spoilerfile, "w") as f:
+        with open(spoilerfile, "w", encoding="utf-8") as f:
             f.write(sp)
 
     if not allow_user_input:
